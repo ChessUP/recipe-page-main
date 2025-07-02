@@ -1,0 +1,80 @@
+@media screen and (min-width: 768px) {
+    body {
+        margin: 7.5em;
+        margin-left: 11em;
+        margin-right: 11em;
+        background-color: #F3E5D8;
+        /* background-color: (226, 150, 9); */
+    }
+    
+    main {
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    img {
+        width: 36em;
+        height: 16em;
+        margin: auto;
+        margin-top: 2.5em;
+        border-radius: 7px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        margin-top: .7em;
+        margin-bottom: 0.2em;
+        margin-left: 1em;
+    }
+
+    h2 {
+        margin-top: .5em;
+        margin-left: 1.5em;
+    }
+
+    h3 {
+        margin: 1.5em;
+    }
+    
+    p {
+        margin-left: 2.7em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding-right: 2.2em;
+    }
+
+    .time {
+        max-width: 40em;
+        height: 11.5em;
+    }
+
+    .time ul {
+        margin: -1em;
+        margin-left: 1em;
+    }
+
+    .time > ul li::before {
+        width: 1.5em;
+        /*Encurtar o espaço entres os textos*/
+        font-size: 1.5em;
+    }
+
+    ul li::before {
+        font-size: 1.5em;
+        margin-left: -.5em;
+        margin-top: -1em;
+                /*Encurtar o espaço entres os textos*/
+    }
+
+    ol > li {
+        margin-left: .5em;
+        padding-right: 2.5em;
+
+    }
+
+    .line {
+        width: 60vw;
+    }
+
+
+}
