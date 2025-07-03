@@ -55,7 +55,6 @@
 
     .time > ul li::before {
         width: 1.5em;
-        /*Encurtar o espaço entres os textos*/
         font-size: 1.5em;
     }
 
@@ -63,7 +62,7 @@
         font-size: 1.5em;
         margin-left: -.5em;
         margin-top: -1em;
-                /*Encurtar o espaço entres os textos*/
+
     }
 
     ol > li {
